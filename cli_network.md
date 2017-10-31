@@ -101,3 +101,14 @@
 ## To find the hostname of the system.
 
 `hostname`
+
+## Capture packets to/from eth0 and record to file
+
+`tcpdump -i eth0 -v -s 65535 -w capture.cap`
+#### Extra arguments explained [here](https://www.rationallyparanoid.com/articles/tcpdump.html)
+
+## Print information from capture file
+
+`capinfos capture.cap`
+#### Extra arguments explained [here](https://www.wireshark.org/docs/wsug_html_chunked/AppToolscapinfos.html)
+
