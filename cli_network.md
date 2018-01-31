@@ -140,6 +140,6 @@
 
 `export {http,https,ftp}_proxy="http://<proxy_sever_ip>:<port>/"`
 
-## To disable Proxy Settings
+### To disable Proxy Settings
 
 `unset {http,https,ftp}_proxy`
